@@ -20,11 +20,6 @@ html { scroll-behavior: smooth; }
 
 a {
   color: var(--accent);
-  text-decoration: none;
-}
-
-a:hover {
-  color: var(--accent);
   text-decoration: underlined;
 }
 
@@ -213,4 +208,5 @@ section.panel {
   }
 
 }
+
 
