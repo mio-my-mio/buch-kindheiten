@@ -239,11 +239,11 @@ section.panel {
 
   .gallery {
     grid-template-columns: 1fr;
-    gap: 40px;
+    gap: 60px;
   }
 
   .gallery-item img {
-    max-width: 200px;
+    max-width: 400px;
   }
 
   #impressum {
@@ -252,7 +252,8 @@ section.panel {
   }
 
   body {
-    font-size: 18px;
+    font-size: 25px;
   }
 }
+
 
