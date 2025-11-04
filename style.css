@@ -205,6 +205,18 @@ section.panel {
 
 @media (max-width: 1080px) {
 
+  .logo {
+  height: 120px;
+  max-width: 90%;
+  }
+
+  nav a {
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-weight: 800;
+  font-size: 30px;
+  }
+  
   .timeline {
     width: 95%;
   }
@@ -247,6 +259,7 @@ section.panel {
     font-size: 25px;
   }
 }
+
 
 
 
