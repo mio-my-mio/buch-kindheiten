@@ -238,7 +238,7 @@ section.panel {
   }
 
   .timeline-dot {
-    left: -60px;
+    left: -10px;
     transform: none;
     width: 60px;
     height: 60px;
@@ -249,8 +249,21 @@ section.panel {
     width: 100%;
     padding: 20px 20px 20px 80px;
     text-align: left !important;
-    margin: 0 !important;
+    margin: 10 !important;
   }
+
+  .timeline-item:nth-child(odd) .timeline-content {
+  padding: 10px 0px 10px 60px;
+  margin-left: calc(55%);
+  text-align: left;
+}
+
+.timeline-item:nth-child(even) .timeline-content {
+  padding: 10px 0px 10px 60px;
+  margin-right: calc(55%);
+  text-align: right;
+}
+
 
   .gallery {
     grid-template-columns: 1fr;
@@ -278,6 +291,7 @@ section.panel {
   }
 
 }
+
 
 
 
