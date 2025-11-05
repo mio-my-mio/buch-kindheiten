@@ -206,6 +206,10 @@ section.panel {
 
 @media (max-width: 1080px) {
 
+  body {
+    font-size: 24px
+  }
+  
   .logo {
   height: 120px;
   max-width: 90%;
@@ -213,10 +217,14 @@ section.panel {
 
   nav a {
   padding: 8px 12px;
-  border-radius: 12px;
-  font-weight: 800;
-  font-size: 40px;
+  border-radius: 16px;
+  font-weight: 600;
+  font-size: 32px;
   }
+
+  .nav-l, 
+  .nav-r {
+  gap: 0px;
   
   .timeline {
     width: 95%;
@@ -228,7 +236,7 @@ section.panel {
   }
 
   .timeline-dot {
-    left: 10px;
+    left: 0px;
     transform: none;
     width: 60px;
     height: 60px;
@@ -251,15 +259,23 @@ section.panel {
     max-width: 400px;
   }
 
+  .gallery-item h3 {
+  margin: 5px 0;
+  font-size: 1.1rem;
+  }
+
+ .gallery-item p {
+  font-size: 0.9rem;
+  color: #424242;
+  margin: 0;
+  }
+
   #impressum {
     margin-left: 20;
     text-align: left;
   }
+ 
 
-  body {
-    font-size: 25px;
-  }
-}
 
 
 
