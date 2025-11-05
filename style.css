@@ -237,7 +237,7 @@ section.panel {
   }
 
   .timeline-dot {
-    left: -12px;
+    left: -10px;
     transform: none;
     width: 60px;
     height: 60px;
@@ -262,11 +262,11 @@ section.panel {
 
   .gallery-item h3 {
   margin: 5px 0;
-  font-size: 1.1rem;
+  font-size: 32px;
   }
 
  .gallery-item p {
-  font-size: 0.9rem;
+  font-size: 28px;
   color: #424242;
   margin: 0;
   }
@@ -277,6 +277,7 @@ section.panel {
   }
 
 }
+
 
 
 
