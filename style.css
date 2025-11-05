@@ -207,7 +207,7 @@ section.panel {
 @media (max-width: 1080px) {
 
   body {
-    font-size: 24px
+    font-size: 32px
   }
   
   .logo {
@@ -219,7 +219,7 @@ section.panel {
   padding: 8px 12px;
   border-radius: 16px;
   font-weight: 600;
-  font-size: 32px;
+  font-size: 36px;
   }
 
   .nav-l, 
@@ -237,7 +237,7 @@ section.panel {
   }
 
   .timeline-dot {
-    left: 0px;
+    left: -10px;
     transform: none;
     width: 60px;
     height: 60px;
@@ -277,6 +277,7 @@ section.panel {
   }
 
 }
+
 
 
 
