@@ -156,17 +156,18 @@ section.panel {
 }
 
 .timeline-content {
-  padding: 12px 50px;
   border-radius: 8px;
   width: calc(50%-60%);
 }
 
 .timeline-item:nth-child(odd) .timeline-content {
+  padding: 12px 10px 10px 50px;
   margin-left: calc(55%);
   text-align: left;
 }
 
 .timeline-item:nth-child(even) .timeline-content {
+  padding: 12px 50px 10px 10px;
   margin-right: calc(55%);
   text-align: right;
 }
@@ -237,7 +238,7 @@ section.panel {
   }
 
   .timeline-dot {
-    left: -10px;
+    left: -60px;
     transform: none;
     width: 60px;
     height: 60px;
@@ -277,6 +278,7 @@ section.panel {
   }
 
 }
+
 
 
 
