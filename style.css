@@ -118,9 +118,9 @@ section.panel {
 
 .timeline {
   position: relative;
-  margin: 40px auto;
-  padding: 20px 0;
-  width: 80%;
+  flex-direction:column;
+  padding: 20px 80px;
+  display: flex;
 }
 
 .timeline::before {
@@ -156,9 +156,9 @@ section.panel {
 }
 
 .timeline-content {
-  padding: 12px 80px;
+  padding: 12px 50px;
   border-radius: 8px;
-  width: 40%;
+  width: calc(50%-60%);
 }
 
 .timeline-item:nth-child(odd) .timeline-content {
@@ -277,6 +277,7 @@ section.panel {
   }
 
 }
+
 
 
 
