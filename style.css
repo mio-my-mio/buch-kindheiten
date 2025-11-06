@@ -161,13 +161,13 @@ section.panel {
 }
 
 .timeline-item:nth-child(odd) .timeline-content {
-  padding: 10px 0px 10px 50px;
+  padding: 0px 0px 0px 50px;
   margin-left: calc(55%);
   text-align: left;
 }
 
 .timeline-item:nth-child(even) .timeline-content {
-  padding: 10px 50px 10px 0px;
+  padding: 0px 50px 0px 0px;
   margin-right: calc(55%);
   text-align: right;
 }
