@@ -130,7 +130,7 @@ section.panel {
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
-  width: 8px;
+  width: 6px;
   background: var(--accent);
   border-radius: 2px;
 }
@@ -146,10 +146,10 @@ section.panel {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
   background: white;
-  border: 8px solid var(--accent);
+  border: 6px solid var(--accent);
   border-radius: 50%;
   z-index: 1;
   box-shadow: 0 1px 4px rgba(0,0,0,0.06);
@@ -291,6 +291,7 @@ section.panel {
   }
 
 }
+
 
 
 
