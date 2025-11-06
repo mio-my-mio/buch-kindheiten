@@ -31,7 +31,7 @@ body {
   background-color: #dcf0f7;
   line-height: 1.6;
   text-align: center;
-  font-size: 20px;
+  font-size: 16px;
   display: flex;
   flex-direction: column;
 }
@@ -291,6 +291,7 @@ section.panel {
   }
 
 }
+
 
 
 
